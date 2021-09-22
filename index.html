@@ -28,7 +28,27 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
 
   </head>
-  <body>
+  <body background="background.jpg">
+    <center>
+
+      <div class="btn btn-primary heading">
+
+        <h3>AI MARIO GAME</h3>
+        
+        <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Instructions</button>
+      </div>
+      <img src="mario.jpg" class="big_image">
+      <br>
+      <br>
+      <button class="btn btn-success" onclick="start_game()" id="start">Play game</button>
+      <br>
+      <br>
+      <h3 id="status" class="btn btn-warning"></h3>
+      <br>
+      <br>
+      <div id="canvas"></div>
+      <div id="game_console"></div>
+    </center>
 
   </body>
 </html>
