@@ -1,9 +1,9 @@
 .heading{
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
 
-.heading h3{
+.heading p{
     display: inline;
 }
 
@@ -21,5 +21,32 @@
 }
 
 canvas{
-    margin-top: 680px;
+    z-index: 9;
+}
+
+h4{
+    bottom: 0;
+    background-color: white;
+    line-height: 3;
+    margin: 0px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+}
+
+.modal-dialog{
+    width: 90%;
+}
+
+.images{
+    display: inline-block;
+    width: 45%;
+}
+
+video{
+    background: url('game_console.png');
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
 }
