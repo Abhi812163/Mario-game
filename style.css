@@ -1,9 +1,10 @@
-.heading{
-    width: 100%;
-    text-align: center;
-}
 
-.heading p{
+.heading
+{
+width: 100%;
+text-align: left;
+}
+.heading h3{
     display: inline;
 }
 
@@ -12,41 +13,29 @@
     border: 1px solid white;
 }
 
-.big_image{
-    width: 100%;
+#start ,#status, #restart
+{
+font-size: 22px;
 }
 
-#start,#status{
-    font-size: 22px;
+.modal-dialog
+{
+    width: 70%;
 }
-
-canvas{
-    z-index: 9;
+.modal-body
+{
+    text-align: left;
+    font-size: 20px;
 }
-
-h4{
-    bottom: 0;
-    background-color: white;
-    line-height: 3;
-    margin: 0px;
-    position: fixed;
-    text-align: center;
-    width: 100%;
-    z-index: 10;
+h4
+{
+   background-color: grey;
+   color:white;
+   line-height: 2;
 }
-
-.modal-dialog{
-    width: 90%;
-}
-
-.images{
-    display: inline-block;
-    width: 45%;
-}
-
-video{
-    background: url('game_console.png');
-    background-size: cover;
-    background-position: center;
-    padding: 25px;
-}
+canvas 
+  {
+      border:3px solid white;
+      border-radius: 20px;
+      box-shadow:  5px 5px 5px white;
+  }
